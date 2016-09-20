@@ -1,0 +1,23 @@
+S -> [qZp]
+S -> [qZq]
+
+[qZp] -> 1[qXp][pZp]
+[qZp] -> 1[qXq][qZp]
+[qZq] -> 1[qXp][pZq]
+[qZq] -> 1[qXq][qZq]
+
+[qXp] -> 1[qXp][pXp]
+[qXp] -> 1[qXq][qXp]
+[qXq] -> 1[qXp][pXq]
+[qXq] -> 1[qXq][qXq]
+
+[qXp] -> 0[pXp]
+[qXq] -> 0[pXq]
+
+[qXq] -> e
+
+[pXp] -> 1
+
+[pZp] -> 0[qZp]
+[pZq] -> 0[qZq]
+
